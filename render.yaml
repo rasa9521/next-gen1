@@ -1,10 +1,10 @@
 services:
   - type: web
-    name: Text Leech Bot
+    name: next-gen1
     plan: free
     env: docker
     dockerfilePath: Dockerfile
-    repo: https://github.com/rajrmahar/txt-to-video-new
+    repo: https://github.com/rasa9521/next-gen1
     branch: main
     autoDeploy: false
     envVars:
